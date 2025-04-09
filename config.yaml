@@ -1,0 +1,35 @@
+
+load_saved_data: 'scraped-data'
+optimizers: 
+  - 'COBYLA'
+  - 'SPSA'
+  - 'NELDER_MEAD'
+  - 'POWELL'
+  - 'L_BFGS_B'
+  - 'CG'
+  - 'SLSQP'
+  - 'ADAM'
+  - 'AMSGrad'
+number_of_nodes_quantum:
+  - 3
+  - 4
+  - 5
+number_of_nodes_classical:
+  - 3
+  - 4
+  - 5
+  - 10
+  - 22
+gradient_free_optimizers:
+  - 'COBYLA'
+  - 'NELDER_MEAD'
+  - 'POWELL'
+  - 'SPSA'
+gradient_based_optimizers:
+  - 'BFGS'
+  - 'L_BFGS_B'
+  - 'CG'
+  - 'SLSQP'
+  - 'ADAM'
+  - 'AMSGrad'
+  - 'AQGD'
