@@ -1,0 +1,6 @@
+PyYAML
+numpy
+qiskit-optimization
+psutil
+matplotlib
+qiskit==1.1.0
